@@ -815,37 +815,37 @@ exe "hi! rubyDefine"     . s:fg_base1  .s:bg_back   .s:fmt_bold
 " ---------------------------------------------------------------------
 "
 " Treat True and False specially, see the plugin referenced above
-let hs_highlight_boolean=1
+"let hs_highlight_boolean=1
 " highlight delims, see the plugin referenced above
-let hs_highlight_delimiters=1
-
-exe "hi! cPreCondit". s:fg_orange.s:bg_none   .s:fmt_none
-
-exe "hi! VarId"    . s:fg_blue   .s:bg_none   .s:fmt_none
-exe "hi! ConId"    . s:fg_yellow .s:bg_none   .s:fmt_none
-exe "hi! hsImport" . s:fg_magenta.s:bg_none   .s:fmt_none
-exe "hi! hsString" . s:fg_base00 .s:bg_none   .s:fmt_none
-
-exe "hi! hsStructure"        . s:fg_cyan   .s:bg_none   .s:fmt_none
-exe "hi! hs_hlFunctionName"  . s:fg_blue   .s:bg_none
-exe "hi! hsStatement"        . s:fg_cyan   .s:bg_none   .s:fmt_none
-exe "hi! hsImportLabel"      . s:fg_cyan   .s:bg_none   .s:fmt_none
-exe "hi! hs_OpFunctionName"  . s:fg_yellow .s:bg_none   .s:fmt_none
-exe "hi! hs_DeclareFunction" . s:fg_orange .s:bg_none   .s:fmt_none
-exe "hi! hsVarSym"           . s:fg_cyan   .s:bg_none   .s:fmt_none
-exe "hi! hsType"             . s:fg_yellow .s:bg_none   .s:fmt_none
-exe "hi! hsTypedef"          . s:fg_cyan   .s:bg_none   .s:fmt_none
-exe "hi! hsModuleName"       . s:fg_green  .s:bg_none   .s:fmt_undr
-exe "hi! hsModuleStartLabel" . s:fg_magenta.s:bg_none   .s:fmt_none
-hi! link hsImportParams      Delimiter
-hi! link hsDelimTypeExport   Delimiter
-hi! link hsModuleStartLabel  hsStructure
-hi! link hsModuleWhereLabel  hsModuleStartLabel
+"let hs_highlight_delimiters=1
+"
+"exe "hi! cPreCondit". s:fg_orange.s:bg_none   .s:fmt_none
+"
+"exe "hi! VarId"    . s:fg_blue   .s:bg_none   .s:fmt_none
+"exe "hi! ConId"    . s:fg_yellow .s:bg_none   .s:fmt_none
+"exe "hi! hsImport" . s:fg_magenta.s:bg_none   .s:fmt_none
+"exe "hi! hsString" . s:fg_base00 .s:bg_none   .s:fmt_none
+"
+"exe "hi! hsStructure"        . s:fg_cyan   .s:bg_none   .s:fmt_none
+"exe "hi! hs_hlFunctionName"  . s:fg_blue   .s:bg_none
+"exe "hi! hsStatement"        . s:fg_cyan   .s:bg_none   .s:fmt_none
+"exe "hi! hsImportLabel"      . s:fg_cyan   .s:bg_none   .s:fmt_none
+"exe "hi! hs_OpFunctionName"  . s:fg_yellow .s:bg_none   .s:fmt_none
+"exe "hi! hs_DeclareFunction" . s:fg_orange .s:bg_none   .s:fmt_none
+"exe "hi! hsVarSym"           . s:fg_cyan   .s:bg_none   .s:fmt_none
+"exe "hi! hsType"             . s:fg_yellow .s:bg_none   .s:fmt_none
+"exe "hi! hsTypedef"          . s:fg_cyan   .s:bg_none   .s:fmt_none
+"exe "hi! hsModuleName"       . s:fg_green  .s:bg_none   .s:fmt_undr
+"exe "hi! hsModuleStartLabel" . s:fg_magenta.s:bg_none   .s:fmt_none
+"hi! link hsImportParams      Delimiter
+"hi! link hsDelimTypeExport   Delimiter
+"hi! link hsModuleStartLabel  hsStructure
+"hi! link hsModuleWhereLabel  hsModuleStartLabel
 
 " following is for the haskell-conceal plugin
 " the first two items don't have an impact, but better safe
-exe "hi! hsNiceOperator"     . s:fg_cyan   .s:bg_none   .s:fmt_none
-exe "hi! hsniceoperator"     . s:fg_cyan   .s:bg_none   .s:fmt_none
+"exe "hi! hsNiceOperator"     . s:fg_cyan   .s:bg_none   .s:fmt_none
+"exe "hi! hsniceoperator"     . s:fg_cyan   .s:bg_none   .s:fmt_none
 
 "}}}
 " pandoc markdown syntax highlighting "{{{
