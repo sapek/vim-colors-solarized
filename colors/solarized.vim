@@ -847,6 +847,7 @@ exe "hi! rubyDefine"     . s:fg_base1  .s:bg_back   .s:fmt_bold
 "exe "hi! hsNiceOperator"     . s:fg_cyan   .s:bg_none   .s:fmt_none
 "exe "hi! hsniceoperator"     . s:fg_cyan   .s:bg_none   .s:fmt_none
 
+exe "hi! hsShakespeareInterpolation" . s:fg_base2 . s:bg_none . s:fmt_none
 "}}}
 " pandoc markdown syntax highlighting "{{{
 " ---------------------------------------------------------------------
